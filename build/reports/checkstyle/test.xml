@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="/Users/zhangchen/projects/learning-gumtree/src/test/java/AppTest.java">
+<error line="5" severity="warning" message="&apos;import 前应有空行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="5" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.Assert.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" severity="warning" message="导入语句&apos;org.junit.Assert.*&apos;位置错误。应位于 &apos;STATIC&apos; 组，此行不应导入。" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+</checkstyle>
